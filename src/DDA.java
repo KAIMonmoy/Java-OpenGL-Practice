@@ -72,6 +72,8 @@ public class DDA implements GLEventListener{
             }
         }
 
+        gl.glFlush();
+
     }
 
     private void drawPoint(GL2 gl, float x, float y) {
